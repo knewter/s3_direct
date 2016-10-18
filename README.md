@@ -685,6 +685,27 @@ or so hours I spent to lay this out succinctly can ultimately save far more than
 that many hours for Phoenix users everywhere when considered cumulatively.  See
 you soon!
 
+## Resources
+
+- [knewter/s3_direct](https://github.com/knewter/s3_direct) - The finished product.
+- [Amazon docs on using HTTP POST from clients to upload files.](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-UsingHTTPPOST.html)
+- [Demystifying direct uploads from the browser to Amazon S3 - with a full example in 167 lines of code](https://leonid.shevtsov.me/post/demystifying-s3-browser-upload/)
+- [Using erlcloud for AWS stuff](http://blog.jordan-dimov.com/accessing-the-amazon-aws-from-elixir-using-erlcloud/)
+- [Elixir/Clojurescript S3 upload](http://jhosteny.github.io/2015/06/10/elixir-clojurescript-s3-upload/) - good explanation of signing.
+- [Capability-based security](https://en.wikipedia.org/wiki/Capability-based_security)
+- [E (programming language)](https://en.wikipedia.org/wiki/E_\(programming_language\)) - The E programming language is the first place I heard about capability-based security - from Tony Arcieri actually!
+- [AWS test suite for implementing signature v4](http://docs.aws.amazon.com/general/latest/gr/signature-v4-test-suite.html)
+- [An excellent article talking about doing this with Elixir and Clojurescript](http://jhosteny.github.io/2015/06/10/elixir-clojurescript-s3-upload/)
+- [`bryanjos/aws_auth`](https://github.com/bryanjos/aws_auth)
+- [Creating a POST policy](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-HTTPPOSTConstructPolicy.html)
+- [HMAC on Wikipedia](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code)
+- [SHA-1 on Wikipedia](https://en.wikipedia.org/wiki/SHA-1)
+- [jQuery File Upload](https://blueimp.github.io/jQuery-File-Upload/)
+- [jQuery File Upload Documentation](https://github.com/blueimp/jQuery-File-Upload/wiki)
+- [The blueimp jQuery File Upload npm package](https://www.npmjs.com/package/blueimp-file-upload)
+- [Using jQuery File Upload to upload directly to S3](https://github.com/blueimp/jQuery-File-Upload/wiki/Upload-directly-to-S3)
+- [aws-shell](https://github.com/awslabs/aws-shell) - If you do anything at all with AWS you really owe it to yourself to have this installed.
+
 ## Notes on additional dependencies
 
 ### S3 CORS
@@ -727,24 +748,3 @@ bucket, woops.  I ended up with the following:
     ]
 }
 ```
-
-
-## Resources
-
-- [Amazon docs on using HTTP POST from clients to upload files.](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-UsingHTTPPOST.html)
-- [Demystifying direct uploads from the browser to Amazon S3 - with a full example in 167 lines of code](https://leonid.shevtsov.me/post/demystifying-s3-browser-upload/)
-- [Using erlcloud for AWS stuff](http://blog.jordan-dimov.com/accessing-the-amazon-aws-from-elixir-using-erlcloud/)
-- [Elixir/Clojurescript S3 upload](http://jhosteny.github.io/2015/06/10/elixir-clojurescript-s3-upload/) - good explanation of signing.
-- [Capability-based security](https://en.wikipedia.org/wiki/Capability-based_security)
-- [E (programming language)](https://en.wikipedia.org/wiki/E_\(programming_language\)) - The E programming language is the first place I heard about capability-based security - from Tony Arcieri actually!
-- [AWS test suite for implementing signature v4](http://docs.aws.amazon.com/general/latest/gr/signature-v4-test-suite.html)
-- [An excellent article talking about doing this with Elixir and Clojurescript](http://jhosteny.github.io/2015/06/10/elixir-clojurescript-s3-upload/)
-- [`bryanjos/aws_auth`](https://github.com/bryanjos/aws_auth)
-- [Creating a POST policy](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-HTTPPOSTConstructPolicy.html)
-- [HMAC on Wikipedia](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code)
-- [SHA-1 on Wikipedia](https://en.wikipedia.org/wiki/SHA-1)
-- [jQuery File Upload](https://blueimp.github.io/jQuery-File-Upload/)
-- [jQuery File Upload Documentation](https://github.com/blueimp/jQuery-File-Upload/wiki)
-- [The blueimp jQuery File Upload npm package](https://www.npmjs.com/package/blueimp-file-upload)
-- [Using jQuery File Upload to upload directly to S3](https://github.com/blueimp/jQuery-File-Upload/wiki/Upload-directly-to-S3)
-- [aws-shell](https://github.com/awslabs/aws-shell) - If you do anything at all with AWS you really owe it to yourself to have this installed.
