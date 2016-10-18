@@ -300,7 +300,8 @@ Alright, so now we have the wrapper we want, kind of.  I found [an excellent
 article talking about doing this with Elixir and
 Clojurescript](http://jhosteny.github.io/2015/06/10/elixir-clojurescript-s3-upload/)
 and will be generously cribbing from there as I go.  Also there's [a library by
-Bryan Joseph for signing AWS requests](https://github.com/bryanjos/aws_auth).
+Bryan Joseph for signing AWS requests](https://github.com/bryanjos/aws_auth) but
+I decided not to use it.
 
 I've already got environment variables with my AWS information. We'll pull them
 into our app config when we build it and access them from the config:
