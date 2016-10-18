@@ -1,5 +1,5 @@
 # S3Direct
-## An example Elixir Phoenix application for direct S3 uploads.
+## An example Elixir/Phoenix application for direct S3 uploads.
 
 This is an example application demonstrating how to allow direct S3 uploads from
 the client-side of your Phoenix application.  It is [provided by DailyDrip as a
