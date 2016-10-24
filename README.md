@@ -7,12 +7,8 @@ free episode on the Elixir topic.](https://www.dailydrip.com/topics/elixir)
 
 The text walkthrough of this project is embedded at the end of the README.  The
 video is available for free [on
-DailyDrip](https://www.dailydrip.com/topics/elixir) as well.
-
-**FIXME:** Replace the above link with the **actual** link to the episode once it's
-recorded. *Feel free to open an issue if you see this bit of text after October
-18th, 2016, and this text is still here; that would indicate that I goofed up
-and forgot to link to the video!*
+DailyDrip](https://www.dailydrip.com/topics/elixir/drips/direct-uploads-with-s3-in-a-phoenix-api)
+as well.
 
 ## License
 
