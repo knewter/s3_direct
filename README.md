@@ -609,9 +609,9 @@ $(() => {
     // We auto upload once we get the response from the server
     autoUpload: true,
     // When you add a file this function is called
-    add: (evt, form) => {
+    add: (evt, data) => {
       // We only handle one file in this case, so let's just grab it
-      let file = form.files[0]
+      let file = data.files[0]
 
       // Now we'll post to our API to get the signature
       $.ajax({
